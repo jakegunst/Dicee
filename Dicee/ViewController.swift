@@ -45,17 +45,18 @@ class ViewController: UIViewController {
         //buttons have outlets AND actions
         
     }
-    @IBAction func rollButtonDragged(_ sender: Any) {
+  
+    @IBAction func rollCheat(_ sender: Any) {
         
-        //This will get exucuted when the roll button gets pressed.
+        
+//        This will get exucuted when the roll button gets pressed.
         
         randomDiceIndex1 = Int.random(in: 5 ... 5)
         randomDiceIndex2 = Int.random(in: 5 ... 5)
-        
-        diceImageView1.image = UIImage(named: "dice6")
-        
-        diceImageView2.image = UIImage(named: "dice6")
-        
-    }
-}
 
+        diceImageView1.image = UIImage(named: "dice6")
+        diceImageView2.image = UIImage(named: "dice6")
+
+    }
+
+}

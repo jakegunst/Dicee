@@ -44,8 +44,8 @@
                                     <color key="titleShadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="rollButtonDragged:" destination="BYZ-38-t0r" eventType="touchDragInside" id="QjH-5x-Dyh"/>
                                     <action selector="rollButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xam-Ox-9Yd"/>
+                                    <action selector="rollCheat:" destination="BYZ-38-t0r" eventType="touchDragExit" id="Z25-e7-sPv"/>
                                 </connections>
                             </button>
                         </subviews>
